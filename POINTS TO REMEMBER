@@ -1,5 +1,12 @@
-In Java, the time complexity of inserting an element into a HashSet or LinkedHashSet is O(1) on average, assuming a good hash function and a load factor that is not too high. This means that the time taken to insert an element into a set is constant regardless of the size of the set, making it an efficient operation.
+In Java, the time complexity of inserting an element into a HashSet or LinkedHashSet is O(1) on average,
+assuming a good hash function and a load factor that is not too high.
+This means that the time taken to insert an element into a set is constant regardless of the size of the set, making it an efficient operation.
 
-However, in the worst-case scenario, when there are many hash collisions, the time complexity of inserting an element into a HashSet or LinkedHashSet can be O(n), where n is the number of elements in the set. This can happen if the hash function generates a large number of collisions, causing the set to be rehashed and the elements to be reinserted.
+However, in the worst-case scenario, when there are many hash collisions, 
+the time complexity of inserting an element into a HashSet or LinkedHashSet can be O(n),
+where n is the number of elements in the set. 
+This can happen if the hash function generates a large number of collisions, causing the set to be rehashed and the elements to be reinserted.
 
-It's worth noting that the TreeSet implementation in Java uses a Red-Black tree, and therefore the time complexity of inserting an element into a TreeSet is O(log n), where n is the number of elements in the set. This means that TreeSet may not be as efficient as HashSet or LinkedHashSet for insertion operations.
+It's worth noting that the TreeSet implementation in Java uses a Red-Black tree,
+and therefore the time complexity of inserting an element into a TreeSet is O(log n),
+where n is the number of elements in the set. This means that TreeSet may not be as efficient as HashSet or LinkedHashSet for insertion operations.
