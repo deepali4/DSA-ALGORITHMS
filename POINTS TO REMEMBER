@@ -15,5 +15,7 @@ where n is the number of elements in the set. This means that TreeSet may not be
 
 ** Path Sum 
 ** All type of views 
-** Iterative way for pre post and inor 
+** Iterative way for pre post and inorder 
+** Constuct Binary tree from pre or post or inorder travelsal 
+
 
